@@ -1,0 +1,7843 @@
+{
+  "seed": 20261014,
+  "configuration": {
+    "count": 12,
+    "target_count": 6,
+    "wall_rule": "pass",
+    "questions_per_page": 1,
+    "projection": {
+      "type": "parallel_isometric",
+      "x_unit": 47,
+      "depth_x": 34,
+      "depth_y_ratio": 0.78
+    }
+  },
+  "questions": [
+    {
+      "number": 1,
+      "target_count": 6,
+      "target_floor": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "options": [
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                2
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "A",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2,
+              0
+            ]
+          ],
+          "image": "q01_option_A.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "110",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "B",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              3
+            ]
+          ],
+          "image": "q01_option_B.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "100",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                2
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": false,
+          "truth": "100",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          "image": "q01_option_C.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "101",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "D",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2,
+              1
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "image": "q01_option_D.png"
+        }
+      ],
+      "answer": "A",
+      "floor_image": "q01_floor.png",
+      "wall_image": "q01_wall.png",
+      "two_true_types": [
+        "110",
+        "101"
+      ],
+      "one_true_type": "100"
+    },
+    {
+      "number": 2,
+      "target_count": 6,
+      "target_floor": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "options": [
+        {
+          "role": "distractor",
+          "distractor_type": "010",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "A",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "010",
+          "cube_count": 7,
+          "floor_cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              1,
+              3,
+              1
+            ]
+          ],
+          "image": "q02_option_A.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "101",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "B",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2,
+              1
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "image": "q02_option_B.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "011",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "C",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              1,
+              1
+            ]
+          ],
+          "image": "q02_option_C.png"
+        },
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                1
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "D",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              1
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              1,
+              2
+            ]
+          ],
+          "image": "q02_option_D.png"
+        }
+      ],
+      "answer": "D",
+      "floor_image": "q02_floor.png",
+      "wall_image": "q02_wall.png",
+      "two_true_types": [
+        "101",
+        "011"
+      ],
+      "one_true_type": "010"
+    },
+    {
+      "number": 3,
+      "target_count": 6,
+      "target_floor": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "options": [
+        {
+          "role": "distractor",
+          "distractor_type": "001",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "A",
+          "count_ok": false,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "001",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "image": "q03_option_A.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "110",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                2
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "B",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              3,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "image": "q03_option_B.png"
+        },
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              1,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              0,
+              0
+            ]
+          ],
+          "image": "q03_option_C.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "011",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "D",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "image": "q03_option_D.png"
+        }
+      ],
+      "answer": "C",
+      "floor_image": "q03_floor.png",
+      "wall_image": "q03_wall.png",
+      "two_true_types": [
+        "011",
+        "110"
+      ],
+      "one_true_type": "001"
+    },
+    {
+      "number": 4,
+      "target_count": 6,
+      "target_floor": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "target_wall": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "options": [
+        {
+          "role": "distractor",
+          "distractor_type": "110",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                2
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "A",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "image": "q04_option_A.png"
+        },
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                2
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "B",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              3,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "image": "q04_option_B.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "101",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              2,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "image": "q04_option_C.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "100",
+          "cube_colors": [
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                2
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "D",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": false,
+          "truth": "100",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              2
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              2
+            ]
+          ],
+          "image": "q04_option_D.png"
+        }
+      ],
+      "answer": "B",
+      "floor_image": "q04_floor.png",
+      "wall_image": "q04_wall.png",
+      "two_true_types": [
+        "110",
+        "101"
+      ],
+      "one_true_type": "100"
+    },
+    {
+      "number": 5,
+      "target_count": 6,
+      "target_floor": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "options": [
+        {
+          "role": "distractor",
+          "distractor_type": "010",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "A",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "010",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "image": "q05_option_A.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "011",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "B",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              3
+            ]
+          ],
+          "image": "q05_option_B.png"
+        },
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              0,
+              1,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          "image": "q05_option_C.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "101",
+          "cube_colors": [
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                2
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "D",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              2
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              3
+            ]
+          ],
+          "image": "q05_option_D.png"
+        }
+      ],
+      "answer": "C",
+      "floor_image": "q05_floor.png",
+      "wall_image": "q05_wall.png",
+      "two_true_types": [
+        "101",
+        "011"
+      ],
+      "one_true_type": "010"
+    },
+    {
+      "number": 6,
+      "target_count": 6,
+      "target_floor": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "options": [
+        {
+          "role": "distractor",
+          "distractor_type": "001",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "A",
+          "count_ok": false,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "001",
+          "cube_count": 7,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              1,
+              2,
+              0
+            ],
+            [
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "image": "q06_option_A.png"
+        },
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "B",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              3
+            ]
+          ],
+          "image": "q06_option_B.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "110",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                2
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "image": "q06_option_C.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "011",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                2
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "D",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "cube_count": 7,
+          "floor_cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "image": "q06_option_D.png"
+        }
+      ],
+      "answer": "B",
+      "floor_image": "q06_floor.png",
+      "wall_image": "q06_wall.png",
+      "two_true_types": [
+        "011",
+        "110"
+      ],
+      "one_true_type": "001"
+    },
+    {
+      "number": 7,
+      "target_count": 6,
+      "target_floor": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "options": [
+        {
+          "role": "distractor",
+          "distractor_type": "110",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "A",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              1,
+              2,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "image": "q07_option_A.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "101",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "B",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0
+            ]
+          ],
+          "image": "q07_option_B.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "100",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": false,
+          "truth": "100",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0
+            ]
+          ],
+          "image": "q07_option_C.png"
+        },
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "D",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "image": "q07_option_D.png"
+        }
+      ],
+      "answer": "D",
+      "floor_image": "q07_floor.png",
+      "wall_image": "q07_wall.png",
+      "two_true_types": [
+        "110",
+        "101"
+      ],
+      "one_true_type": "100"
+    },
+    {
+      "number": 8,
+      "target_count": 6,
+      "target_floor": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "options": [
+        {
+          "role": "distractor",
+          "distractor_type": "101",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "A",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              2,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0
+            ]
+          ],
+          "image": "q08_option_A.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "011",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "B",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              2,
+              0
+            ]
+          ],
+          "image": "q08_option_B.png"
+        },
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                2
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "image": "q08_option_C.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "010",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                2
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "D",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "010",
+          "cube_count": 7,
+          "floor_cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              2
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              3,
+              0,
+              0
+            ]
+          ],
+          "image": "q08_option_D.png"
+        }
+      ],
+      "answer": "C",
+      "floor_image": "q08_floor.png",
+      "wall_image": "q08_wall.png",
+      "two_true_types": [
+        "101",
+        "011"
+      ],
+      "one_true_type": "010"
+    },
+    {
+      "number": 9,
+      "target_count": 6,
+      "target_floor": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "target_wall": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "options": [
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                2
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "A",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              3,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "image": "q09_option_A.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "001",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                2
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "B",
+          "count_ok": false,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "001",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              3,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "image": "q09_option_B.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "110",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                2
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ],
+          "image": "q09_option_C.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "011",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "D",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "image": "q09_option_D.png"
+        }
+      ],
+      "answer": "A",
+      "floor_image": "q09_floor.png",
+      "wall_image": "q09_wall.png",
+      "two_true_types": [
+        "011",
+        "110"
+      ],
+      "one_true_type": "001"
+    },
+    {
+      "number": 10,
+      "target_count": 6,
+      "target_floor": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "options": [
+        {
+          "role": "distractor",
+          "distractor_type": "101",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "A",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1
+            ]
+          ],
+          "image": "q10_option_A.png"
+        },
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                0,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "B",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1
+            ]
+          ],
+          "image": "q10_option_B.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "100",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": false,
+          "truth": "100",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "image": "q10_option_C.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "110",
+          "cube_colors": [
+            {
+              "coordinate": [
+                0,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "D",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "image": "q10_option_D.png"
+        }
+      ],
+      "answer": "B",
+      "floor_image": "q10_floor.png",
+      "wall_image": "q10_wall.png",
+      "two_true_types": [
+        "110",
+        "101"
+      ],
+      "one_true_type": "100"
+    },
+    {
+      "number": 11,
+      "target_count": 6,
+      "target_floor": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "options": [
+        {
+          "role": "distractor",
+          "distractor_type": "010",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "A",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "010",
+          "cube_count": 7,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              3,
+              1
+            ]
+          ],
+          "image": "q11_option_A.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "011",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "B",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              1
+            ]
+          ],
+          "image": "q11_option_B.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "101",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "C",
+          "count_ok": true,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "image": "q11_option_C.png"
+        },
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                1,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                1,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "D",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "blocks": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              1,
+              1
+            ]
+          ],
+          "image": "q11_option_D.png"
+        }
+      ],
+      "answer": "D",
+      "floor_image": "q11_floor.png",
+      "wall_image": "q11_wall.png",
+      "two_true_types": [
+        "101",
+        "011"
+      ],
+      "one_true_type": "010"
+    },
+    {
+      "number": 12,
+      "target_count": 6,
+      "target_floor": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "target_wall": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "options": [
+        {
+          "role": "correct",
+          "cube_colors": [
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                1
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            }
+          ],
+          "letter": "A",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              3,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              1
+            ]
+          ],
+          "is_answer": true,
+          "distractor_type": null,
+          "height_matrix": [
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              2,
+              2
+            ]
+          ],
+          "image": "q12_option_A.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "110",
+          "cube_colors": [
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                2
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "B",
+          "count_ok": true,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "cube_count": 6,
+          "floor_cells": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              3,
+              1,
+              0
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              3,
+              1
+            ]
+          ],
+          "image": "q12_option_B.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "011",
+          "cube_colors": [
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                1
+              ],
+              "base_color": "红"
+            }
+          ],
+          "letter": "C",
+          "count_ok": false,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "cube_count": 5,
+          "floor_cells": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2
+            ]
+          ],
+          "image": "q12_option_C.png"
+        },
+        {
+          "role": "distractor",
+          "distractor_type": "001",
+          "cube_colors": [
+            {
+              "coordinate": [
+                2,
+                0,
+                0
+              ],
+              "base_color": "红"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                0
+              ],
+              "base_color": "蓝"
+            },
+            {
+              "coordinate": [
+                2,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                0,
+                1
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                0
+              ],
+              "base_color": "黄"
+            },
+            {
+              "coordinate": [
+                3,
+                1,
+                1
+              ],
+              "base_color": "黄"
+            }
+          ],
+          "letter": "D",
+          "count_ok": false,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "001",
+          "cube_count": 7,
+          "floor_cells": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "wall_projection": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "blocks": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              3,
+              1,
+              0
+            ],
+            [
+              3,
+              1,
+              1
+            ]
+          ],
+          "is_answer": false,
+          "height_matrix": [
+            [
+              0,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              0,
+              2,
+              2
+            ]
+          ],
+          "image": "q12_option_D.png"
+        }
+      ],
+      "answer": "A",
+      "floor_image": "q12_floor.png",
+      "wall_image": "q12_wall.png",
+      "two_true_types": [
+        "011",
+        "110"
+      ],
+      "one_true_type": "001"
+    }
+  ],
+  "answers": [
+    {
+      "question": 1,
+      "answer": "A",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        },
+        {
+          "letter": "B",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "reason": "墙洞轮廓不符"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": false,
+          "truth": "100",
+          "reason": "地板不符、墙洞轮廓不符"
+        },
+        {
+          "letter": "D",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "reason": "地板不符"
+        }
+      ]
+    },
+    {
+      "question": 2,
+      "answer": "D",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 7,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "010",
+          "reason": "数量错误、墙洞轮廓不符"
+        },
+        {
+          "letter": "B",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "reason": "地板不符"
+        },
+        {
+          "letter": "C",
+          "cube_count": 5,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "reason": "数量错误"
+        },
+        {
+          "letter": "D",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        }
+      ]
+    },
+    {
+      "question": 3,
+      "answer": "C",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 5,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "001",
+          "reason": "数量错误、地板不符"
+        },
+        {
+          "letter": "B",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "reason": "墙洞轮廓不符"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        },
+        {
+          "letter": "D",
+          "cube_count": 5,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "reason": "数量错误"
+        }
+      ]
+    },
+    {
+      "question": 4,
+      "answer": "B",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "reason": "墙洞轮廓不符"
+        },
+        {
+          "letter": "B",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "reason": "地板不符"
+        },
+        {
+          "letter": "D",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": false,
+          "truth": "100",
+          "reason": "地板不符、墙洞轮廓不符"
+        }
+      ]
+    },
+    {
+      "question": 5,
+      "answer": "C",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 5,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "010",
+          "reason": "数量错误、墙洞轮廓不符"
+        },
+        {
+          "letter": "B",
+          "cube_count": 5,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "reason": "数量错误"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        },
+        {
+          "letter": "D",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "reason": "地板不符"
+        }
+      ]
+    },
+    {
+      "question": 6,
+      "answer": "B",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 7,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "001",
+          "reason": "数量错误、地板不符"
+        },
+        {
+          "letter": "B",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "reason": "墙洞轮廓不符"
+        },
+        {
+          "letter": "D",
+          "cube_count": 7,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "reason": "数量错误"
+        }
+      ]
+    },
+    {
+      "question": 7,
+      "answer": "D",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "reason": "墙洞轮廓不符"
+        },
+        {
+          "letter": "B",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "reason": "地板不符"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": false,
+          "truth": "100",
+          "reason": "地板不符、墙洞轮廓不符"
+        },
+        {
+          "letter": "D",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        }
+      ]
+    },
+    {
+      "question": 8,
+      "answer": "C",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "reason": "地板不符"
+        },
+        {
+          "letter": "B",
+          "cube_count": 5,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "reason": "数量错误"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        },
+        {
+          "letter": "D",
+          "cube_count": 7,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "010",
+          "reason": "数量错误、墙洞轮廓不符"
+        }
+      ]
+    },
+    {
+      "question": 9,
+      "answer": "A",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        },
+        {
+          "letter": "B",
+          "cube_count": 5,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "001",
+          "reason": "数量错误、地板不符"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "reason": "墙洞轮廓不符"
+        },
+        {
+          "letter": "D",
+          "cube_count": 5,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "reason": "数量错误"
+        }
+      ]
+    },
+    {
+      "question": 10,
+      "answer": "B",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "reason": "地板不符"
+        },
+        {
+          "letter": "B",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": false,
+          "truth": "100",
+          "reason": "地板不符、墙洞轮廓不符"
+        },
+        {
+          "letter": "D",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "reason": "墙洞轮廓不符"
+        }
+      ]
+    },
+    {
+      "question": 11,
+      "answer": "D",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 7,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "010",
+          "reason": "数量错误、墙洞轮廓不符"
+        },
+        {
+          "letter": "B",
+          "cube_count": 5,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "reason": "数量错误"
+        },
+        {
+          "letter": "C",
+          "cube_count": 6,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "101",
+          "reason": "地板不符"
+        },
+        {
+          "letter": "D",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        }
+      ]
+    },
+    {
+      "question": 12,
+      "answer": "A",
+      "options": [
+        {
+          "letter": "A",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "111",
+          "reason": "正确"
+        },
+        {
+          "letter": "B",
+          "cube_count": 6,
+          "floor_ok": true,
+          "wall_ok": false,
+          "truth": "110",
+          "reason": "墙洞轮廓不符"
+        },
+        {
+          "letter": "C",
+          "cube_count": 5,
+          "floor_ok": true,
+          "wall_ok": true,
+          "truth": "011",
+          "reason": "数量错误"
+        },
+        {
+          "letter": "D",
+          "cube_count": 7,
+          "floor_ok": false,
+          "wall_ok": true,
+          "truth": "001",
+          "reason": "数量错误、地板不符"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "seed": 20261014,
+  "questions": [
+    {
+      "number": 1,
+      "first": {
+        "length": 2,
+        "start": 2,
+        "end": 4,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "杯子",
+        "color": "#E8A94B"
+      },
+      "second": {
+        "length": 6,
+        "start": 3,
+        "end": 9,
+        "visible_start": 1,
+        "visible_end": 12,
+        "cropped": true,
+        "object": "橡皮",
+        "color": "#A8A653"
+      }
+    },
+    {
+      "number": 2,
+      "first": {
+        "length": 3,
+        "start": 5,
+        "end": 8,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "盘子",
+        "color": "#E98772"
+      },
+      "second": {
+        "length": 7,
+        "start": 5,
+        "end": 12,
+        "visible_start": 2,
+        "visible_end": 15,
+        "cropped": true,
+        "object": "小鱼图形",
+        "color": "#8199CC"
+      }
+    },
+    {
+      "number": 3,
+      "first": {
+        "length": 4,
+        "start": 2,
+        "end": 6,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "叶片图形",
+        "color": "#A8A653"
+      },
+      "second": {
+        "length": 8,
+        "start": 7,
+        "end": 15,
+        "visible_start": 4,
+        "visible_end": 18,
+        "cropped": true,
+        "object": "花盆",
+        "color": "#9A83B7"
+      }
+    },
+    {
+      "number": 4,
+      "first": {
+        "length": 5,
+        "start": 5,
+        "end": 10,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "饼干",
+        "color": "#8199CC"
+      },
+      "second": {
+        "length": 9,
+        "start": 4,
+        "end": 13,
+        "visible_start": 1,
+        "visible_end": 16,
+        "cropped": true,
+        "object": "肥皂",
+        "color": "#65A9A0"
+      }
+    },
+    {
+      "number": 5,
+      "first": {
+        "length": 2,
+        "start": 2,
+        "end": 4,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "小汽车",
+        "color": "#9A83B7"
+      },
+      "second": {
+        "length": 6,
+        "start": 6,
+        "end": 12,
+        "visible_start": 3,
+        "visible_end": 15,
+        "cropped": true,
+        "object": "书本",
+        "color": "#E8A94B"
+      }
+    },
+    {
+      "number": 6,
+      "first": {
+        "length": 3,
+        "start": 5,
+        "end": 8,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "手提包",
+        "color": "#65A9A0"
+      },
+      "second": {
+        "length": 7,
+        "start": 3,
+        "end": 10,
+        "visible_start": 1,
+        "visible_end": 13,
+        "cropped": true,
+        "object": "蛋糕",
+        "color": "#E98772"
+      }
+    },
+    {
+      "number": 7,
+      "first": {
+        "length": 4,
+        "start": 2,
+        "end": 6,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "杯子",
+        "color": "#E8A94B"
+      },
+      "second": {
+        "length": 8,
+        "start": 5,
+        "end": 13,
+        "visible_start": 2,
+        "visible_end": 16,
+        "cropped": true,
+        "object": "橡皮",
+        "color": "#A8A653"
+      }
+    },
+    {
+      "number": 8,
+      "first": {
+        "length": 5,
+        "start": 5,
+        "end": 10,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "盘子",
+        "color": "#E98772"
+      },
+      "second": {
+        "length": 9,
+        "start": 7,
+        "end": 16,
+        "visible_start": 4,
+        "visible_end": 18,
+        "cropped": true,
+        "object": "小鱼图形",
+        "color": "#8199CC"
+      }
+    },
+    {
+      "number": 9,
+      "first": {
+        "length": 2,
+        "start": 2,
+        "end": 4,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "叶片图形",
+        "color": "#A8A653"
+      },
+      "second": {
+        "length": 6,
+        "start": 4,
+        "end": 10,
+        "visible_start": 1,
+        "visible_end": 13,
+        "cropped": true,
+        "object": "花盆",
+        "color": "#9A83B7"
+      }
+    },
+    {
+      "number": 10,
+      "first": {
+        "length": 3,
+        "start": 5,
+        "end": 8,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "饼干",
+        "color": "#8199CC"
+      },
+      "second": {
+        "length": 7,
+        "start": 6,
+        "end": 13,
+        "visible_start": 3,
+        "visible_end": 16,
+        "cropped": true,
+        "object": "肥皂",
+        "color": "#65A9A0"
+      }
+    },
+    {
+      "number": 11,
+      "first": {
+        "length": 4,
+        "start": 2,
+        "end": 6,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "小汽车",
+        "color": "#9A83B7"
+      },
+      "second": {
+        "length": 8,
+        "start": 3,
+        "end": 11,
+        "visible_start": 1,
+        "visible_end": 14,
+        "cropped": true,
+        "object": "书本",
+        "color": "#E8A94B"
+      }
+    },
+    {
+      "number": 12,
+      "first": {
+        "length": 5,
+        "start": 5,
+        "end": 10,
+        "visible_start": 0,
+        "visible_end": 12,
+        "cropped": false,
+        "object": "手提包",
+        "color": "#65A9A0"
+      },
+      "second": {
+        "length": 9,
+        "start": 5,
+        "end": 14,
+        "visible_start": 2,
+        "visible_end": 17,
+        "cropped": true,
+        "object": "蛋糕",
+        "color": "#E98772"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "question": 1,
+      "first_length": 2,
+      "second_length": 6,
+      "first_object": "杯子",
+      "second_object": "橡皮"
+    },
+    {
+      "question": 2,
+      "first_length": 3,
+      "second_length": 7,
+      "first_object": "盘子",
+      "second_object": "小鱼图形"
+    },
+    {
+      "question": 3,
+      "first_length": 4,
+      "second_length": 8,
+      "first_object": "叶片图形",
+      "second_object": "花盆"
+    },
+    {
+      "question": 4,
+      "first_length": 5,
+      "second_length": 9,
+      "first_object": "饼干",
+      "second_object": "肥皂"
+    },
+    {
+      "question": 5,
+      "first_length": 2,
+      "second_length": 6,
+      "first_object": "小汽车",
+      "second_object": "书本"
+    },
+    {
+      "question": 6,
+      "first_length": 3,
+      "second_length": 7,
+      "first_object": "手提包",
+      "second_object": "蛋糕"
+    },
+    {
+      "question": 7,
+      "first_length": 4,
+      "second_length": 8,
+      "first_object": "杯子",
+      "second_object": "橡皮"
+    },
+    {
+      "question": 8,
+      "first_length": 5,
+      "second_length": 9,
+      "first_object": "盘子",
+      "second_object": "小鱼图形"
+    },
+    {
+      "question": 9,
+      "first_length": 2,
+      "second_length": 6,
+      "first_object": "叶片图形",
+      "second_object": "花盆"
+    },
+    {
+      "question": 10,
+      "first_length": 3,
+      "second_length": 7,
+      "first_object": "饼干",
+      "second_object": "肥皂"
+    },
+    {
+      "question": 11,
+      "first_length": 4,
+      "second_length": 8,
+      "first_object": "小汽车",
+      "second_object": "书本"
+    },
+    {
+      "question": 12,
+      "first_length": 5,
+      "second_length": 9,
+      "first_object": "手提包",
+      "second_object": "蛋糕"
+    }
+  ]
+}
